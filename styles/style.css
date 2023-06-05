@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#SearchInput {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-top: 100px;
+}
+
+#searchformbutton {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #4caf50;
+  height: 35px;
+  width: 70px;
+  color: rgb(250, 248, 248);
+  /* border: none; */
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+#searchformbutton:hover {
+  background-color: #bad715;
+}
